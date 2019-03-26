@@ -20,3 +20,11 @@
     - Functional Comp first then create Class-based Comp
 
   - [x] TimeContent: show different text/icons based on props(It is Morning/Night)
+
+
+### TimeZone DB
+- `http://api.timezonedb.com/v2.1/get-time-zone`
+- [] Create account
+- [] Create API key
+- Now I don't know if i need to create a request for actually finding the user's timezone
+- how to pinpoint time of user from browser console
