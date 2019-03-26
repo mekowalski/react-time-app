@@ -13,3 +13,7 @@
 - use icons: moon/star for night, sun/coffee cup for morning
 
 ## App Tasks/Concerns/Stuff
+- What Components to create
+  - [] App Component: in charge of determining the timezone and the current time of day
+    - Funtional Comp first then create Class-based Como
+  - [] TimeContent: show different text/icons based on props(It is Morning/Night)
