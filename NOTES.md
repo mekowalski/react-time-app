@@ -11,3 +11,5 @@
 ### Styling
 - Semantic UI (of course)
 - use icons: moon/star for night, sun/coffee cup for morning
+
+## App Tasks/Concerns/Stuff
