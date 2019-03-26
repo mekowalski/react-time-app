@@ -7,3 +7,7 @@
 - Timezone API request form
 - `https://maps.googleapis.com/maps/api/timezone/outputFormat?parameters`
 - [] Create API key
+
+### Styling
+- Semantic UI (of course)
+- use icons: moon/star for night, sun/coffee cup for morning
