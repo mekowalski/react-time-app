@@ -7,6 +7,8 @@
 - Timezone API request form
 - `https://maps.googleapis.com/maps/api/timezone/outputFormat?parameters`
 - [] Create API key
+- not certain how to use this api but first will create key
+*** THIS WILL NOT WORK, GOOGLE TIMEZONE API BASED ON GOOGLE MAPS AND REQUIRES BILLING, NOT FREE :(
 
 ### Styling
 - Semantic UI (of course)
@@ -14,7 +16,7 @@
 
 ## App Tasks/Concerns/Stuff
 - What Components to create
-  - [] App Component: in charge of determining the timezone and the current time of day
-    - Funtional Comp first then create Class-based Comp
+  - [x] App Component: in charge of determining the timezone and the current time of day
+    - Functional Comp first then create Class-based Comp
 
-  - [] TimeContent: show different text/icons based on props(It is Morning/Night)
+  - [x] TimeContent: show different text/icons based on props(It is Morning/Night)
