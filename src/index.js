@@ -5,9 +5,10 @@ import ReactDOM from 'react-dom';
 //2. component App code
 const App = () => {
   window.navigator.geolocation.getCurrentPosition(
-    position => console.log(position.timestamp)
+    // position => console.log(position.timestamp),
     // => 1553644528444
-
+    timestamp => console.log(timestamp),
+    error => console.log(error)
   )
   return (
     <div>

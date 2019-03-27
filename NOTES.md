@@ -36,3 +36,5 @@
   - create function like realTime(ms) {}
   - or function like getDate() {}
 * no freaking clue
+
+- NEW DAY: trying to still figure out the freaking milli-second conversion
