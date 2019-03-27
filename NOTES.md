@@ -28,3 +28,11 @@
 - [] Create API key
 - Now I don't know if i need to create a request for actually finding the user's timezone
 - how to pinpoint time of user from browser console
+
+### Geolocation Position Timestamp
+- Position.timestamp: returns time at which location was retrieved
+- precision to the milli-second (eg: 1553644528444)
+- how to convert the milli-second to HH:MM:SS format, this would be so helpful!
+  - create function like realTime(ms) {}
+  - or function like getDate() {}
+* no freaking clue
