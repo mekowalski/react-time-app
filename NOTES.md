@@ -8,7 +8,8 @@
 - `https://maps.googleapis.com/maps/api/timezone/outputFormat?parameters`
 - [] Create API key
 - not certain how to use this api but first will create key
-*** THIS WILL NOT WORK, GOOGLE TIMEZONE API BASED ON GOOGLE MAPS AND REQUIRES BILLING, NOT FREE :(
+
+* THIS WILL NOT WORK, GOOGLE TIMEZONE API BASED ON GOOGLE MAPS AND REQUIRES BILLING, NOT FREE :(
 
 ### Styling
 - Semantic UI (of course)
@@ -39,8 +40,11 @@
 
 - NEW DAY 032719: trying to still figure out the freaking milli-second conversion
 - In browser console:
-  `const theTime = new Date(1553711368725)`
-  `undefined`
-  `theTime`
-  `Wed Mar 27 2019 12:29:28 GMT-0600 (Mountain Daylight Time)`
-^^^THIS IS GOLDEN
+  - `const theTime = new Date(1553711368725)`
+  - `undefined`
+  - `theTime`
+  - `Wed Mar 27 2019 12:29:28 GMT-0600 (Mountain Daylight Time)`
+- ^^^THIS IS GOLDEN
+
+- currently: `position => console.log(position.timestamp)` returns `1553712028907`
+- need to hold the timestamp in a variable like: let ms = position.timestamp
