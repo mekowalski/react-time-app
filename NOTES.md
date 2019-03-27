@@ -37,4 +37,10 @@
   - or function like getDate() {}
 * no freaking clue
 
-- NEW DAY: trying to still figure out the freaking milli-second conversion
+- NEW DAY 032719: trying to still figure out the freaking milli-second conversion
+- In browser console:
+  `const theTime = new Date(1553711368725)`
+  `undefined`
+  `theTime`
+  `Wed Mar 27 2019 12:29:28 GMT-0600 (Mountain Daylight Time)`
+^^^THIS IS GOLDEN
