@@ -48,3 +48,13 @@
 
 - currently: `position => console.log(position.timestamp)` returns `1553712028907`
 - need to hold the timestamp in a variable like: let ms = position.timestamp
+
+- this is also true in browser console:
+  - `var time = new Date().getTime()``
+  - `undefined`
+  - `var date = new Date(time)`
+  - `undefined`
+  - `date`
+  - `Wed Mar 27 2019 12:48:17 GMT-0600 (Mountain Daylight Time)`
+
+  - but this isn't taking in the milliseconds timestamp from `position.timestamp`, it's just getting the time from the browser, which is also okay
