@@ -19,7 +19,10 @@ class App extends React.Component {
       <div>
         Welcome to the Timezone App
 
-        <p>Timestamp: </p>
+        <p>Timestamp: {console.log(this.state.date)}</p>
+        {
+          //4/2/2019, 3:47:17 PM
+        }
       </div>
     )
   }

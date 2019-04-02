@@ -72,8 +72,8 @@
 
 
 ### Next Tasks
-- [] App: class-based component
-- [] Build initial state and constructor()
+- [x] App: class-based component
+- [x] Build initial state and constructor()
 - [] OR Build `componentDidMount` life cycle
 - [] Also display the actual time
 
