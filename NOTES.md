@@ -62,3 +62,10 @@
 - NEW DAY 040219: maybe i can use `Date()` to retrieve the user's time
   - maybe create a constructor() that sets `state` to some value
   - or use component life cycle to initially get the date
+
+- [] Print timestamp with class-based component
+
+## SIDENOTE
+- I just realized that this entire time i am depending on the time of the user, not their zone.  Originally i wanted to to some how use their timezone to give them a conditional text.  BUT the conditional text is actually based on their time(I want to show them whether it's day or night).  Never cared about their timezone in the first place.  What would i do with a timezone of Mountain Standard Time etc?
+- SOOO i should really just care about the time, not the time zone
+- Unless i do something like: `It's 2:30pm in Mountain Standard Time and it's Day time` with a sun icon

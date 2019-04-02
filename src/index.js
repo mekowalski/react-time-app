@@ -18,6 +18,7 @@ const App = () => {
   return (
     <div>
       Welcome to the Timezone App
+      <p>Timestamp: </p>
     </div>
   )
 }
