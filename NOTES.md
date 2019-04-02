@@ -73,8 +73,8 @@
 
 ### Next Tasks
 - [x] App: class-based component
-- [x] Build initial state and constructor()
+- [x] Build initial state and constructor() => 4/2/2019, 3:47:17 PM (WOOTWOOT)
 - [] OR Build `componentDidMount` life cycle
-- [] Also display the actual time
+- [x] Also display the actual time YYYEEESSS!!!
 
 - play with different options
