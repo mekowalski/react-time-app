@@ -11,6 +11,9 @@ const App = () => {
     position => console.log(position.timestamp),
     // => 1553644528444
     error => console.log(error)
+    //error callback, what happens if this call fails(possibly if user declines location knowledge)
+    //request for location because geolocation holds the timestamp
+    //although i might not even use geolocation, i may go with Date()
   )
   return (
     <div>

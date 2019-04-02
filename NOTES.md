@@ -60,5 +60,5 @@
   - but this isn't taking in the milliseconds timestamp from `position.timestamp`, it's just getting the time from the browser, which is also okay
 
 - NEW DAY 040219: maybe i can use `Date()` to retrieve the user's time
-  - maybe crate a constructor() that sets `state` to some value
+  - maybe create a constructor() that sets `state` to some value
   - or use component life cycle to initially get the date
