@@ -75,5 +75,6 @@
 - [] App: class-based component
 - [] Build initial state and constructor()
 - [] OR Build `componentDidMount` life cycle
+- [] Also display the actual time
 
 - play with different options
