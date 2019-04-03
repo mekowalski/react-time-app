@@ -10,7 +10,7 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      date: new Date().toLocaleString()
+      date: new Date().toLocaleTimeString()
     }
   }
 
@@ -28,3 +28,5 @@ ReactDOM.render(
   <App />,
   document.querySelector('#root')
 )
+
+//L13: a ton of ways to format Date, i think this one is best format

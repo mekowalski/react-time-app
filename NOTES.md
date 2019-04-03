@@ -76,5 +76,4 @@
 - [x] Build initial state and constructor() => 4/2/2019, 3:47:17 PM (WOOTWOOT)
 - [] OR Build `componentDidMount` life cycle
 - [x] Also display the actual time YYYEEESSS!!!
-
 - play with different options
