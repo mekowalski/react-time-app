@@ -82,3 +82,6 @@
   - AM/PM: along the lines of `if (date = AM) return 'it is morning else return 'it is night'`
   - 24hr format: `const ampm = (hours >= 12) ? 'PM' : 'AM'`
   - (not sure how correct the code is but this is the general idea)
+
+- Will i need to use `setState` or can i just use a default state?  For retrieving the info and using that data to display a message on page
+- I'm not really going to change/modify/manipulate the state, it changes every time the page is refreshed
