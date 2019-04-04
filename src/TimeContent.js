@@ -1,6 +1,7 @@
 import React from 'react';
 
-const TimeContent = () => {
+const TimeContent = props => {
+  console.log(props.date)
   return (
     <div>
       This is the Time Content page
