@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        Welcome to the Time App
+        Welcome to the Time App(testing)
         <p>Timestamp: {this.state.date}</p>
       </div>
     )
