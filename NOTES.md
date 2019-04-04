@@ -85,3 +85,6 @@
 
 - Will i need to use `setState` or can i just use a default state?  For retrieving the info and using that data to display a message on page
 - I'm not really going to change/modify/manipulate the state, it changes every time the page is refreshed
+
+- Not sure how to create error code for an possible errors. (don't know what error would arise from getting a time.)
+- re-render component to display error(update state)
