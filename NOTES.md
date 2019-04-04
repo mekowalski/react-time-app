@@ -94,3 +94,7 @@
   - [x] Import TimeContent into index
   - [] Show the actual Time Content, either day or night
     - New props in TimeContent as `date` with value of `this.state.date`
+    - Determine time of day in TimeContent
+    - Display morning/night dependent on AM or PM
+    - ^how to do this?
+    `if date = AM return morning`? not sure if this is right

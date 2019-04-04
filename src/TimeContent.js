@@ -1,7 +1,17 @@
 import React from 'react';
 
+const getTimeOfDay = (date) => {
+  //return string eith morning or evening
+  if (date >= 12) {
+    return 'it is morning time'
+  }
+  else {
+    return 'it is night time'
+  }
+}
+
 const TimeContent = props => {
-  console.log(props.date)
+  const time = getTimeOfDay(props.date)
   return (
     <div>
       This is the Time Content page
