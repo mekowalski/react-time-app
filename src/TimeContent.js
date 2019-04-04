@@ -12,6 +12,7 @@ const getTimeOfDay = (date) => {
 
 const TimeContent = props => {
   const time = getTimeOfDay(props.date)
+  console.log(time)
   return (
     <div>
       This is the Time Content page
