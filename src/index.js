@@ -2,7 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 class App extends React.Component {
-  state = { date: new Date().toLocaleTimeString(), error: '' }
+  state = { date: new Date().toLocaleTimeString() }
+
+  //deciding if life cycle is necessary
+  componentDidMount() {
+    console.log('component rendered to the screen')
+  }
 
   render() {
     return (
