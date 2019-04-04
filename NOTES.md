@@ -102,3 +102,9 @@
 - Currently, I changed the conditional from AM/PM to 3 different times of day: morning/afternoon/night
 - The conditional worked correctly in logging the right string in the browser!
 - not sure if i should continue using `date` as my object since the app is not caring of th Date: April 4th, 2019.  It's main concern is displaying certain content dependent on the time of day, which is based on hours of a 24hour-format
+
+
+### Customize TimeContent
+- Dependent on time of day (00-12, 12-18 and 18-24)
+- [] Display a statement respective to the time of day
+- [] And include related icons that go with Statement

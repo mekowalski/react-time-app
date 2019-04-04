@@ -2,22 +2,21 @@ import React from 'react';
 
 const getTimeOfDay = (time) => {
   if (time < 12) {
-    return 'Morning Time' //config: morning with icons of coffee/bath
+    return 'Morning' //config: morning with icons of coffee/bath
   }
   else if (time < 18) {
-    return 'Afternoon Tea' //config: afternoon with icons of sun/battery half(hehe) or js
+    return 'Afternoon' //config: afternoon with icons of sun/battery half(hehe) or js
   }
   else {
-    return 'Night Time' //config: night with icons of moon/bed/star
+    return 'Night' //config: night with icons of moon/bed/star
   }
 }
 
 const TimeContent = props => {
   const statement = getTimeOfDay(props.time)
-  console.log(statement)
   return (
     <div>
-      This is the Time Content page
+      Not sure what to do about cofiguring time of day yet
     </div>
   )
 }
