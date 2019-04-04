@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import TimeContent from './TimeContent'
 
 class App extends React.Component {
-  state = { date: new Date().toLocaleTimeString('it-IT') }
+  state = { date: new Date().getHours() }
 
   render() {
     return (
       <div>
-        Time: {this.state.date}
+      Time: {this.state.date}
       </div>
     )
   }

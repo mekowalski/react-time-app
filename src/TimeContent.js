@@ -10,10 +10,10 @@ const getTimeOfDay = (date) => {
   // }
 
   //trying with 3 conditionals of morning, afternoon and night
-  if (date >= 11) {
+  if (date < 12) {
     return 'Morning Time'
   }
-  else if (date < 11 && date > 18) {
+  else if (date < 18) {
     return 'Afternoon Tea'
   }
   else {
