@@ -16,7 +16,7 @@ const TimeContent = props => {
   const statement = getTimeOfDay(props.time)
   return (
     <div>
-      Not sure what to do about cofiguring time of day yet
+      <h1>Not sure what to do about configuring time of day yet</h1>
     </div>
   )
 }
