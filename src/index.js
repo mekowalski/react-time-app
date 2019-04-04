@@ -4,11 +4,12 @@ import TimeContent from './TimeContent'
 
 class App extends React.Component {
   state = { date: new Date().toLocaleTimeString() }
+  //get value of state(date) down into TimeContent component with Props system
 
   render() {
     return (
       <div>
-        <TimeContent />
+        <TimeContent date={this.state.date} />
       </div>
     )
   }

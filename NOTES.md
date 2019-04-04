@@ -93,3 +93,4 @@
 - NEW TASKS:
   - [x] Import TimeContent into index
   - [] Show the actual Time Content, either day or night
+    - New props in TimeContent as `date` with value of `this.state.date`
