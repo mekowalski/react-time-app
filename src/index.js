@@ -18,3 +18,7 @@ ReactDOM.render(
   <App />,
   document.querySelector('#root')
 )
+
+//state only cares about user's date, specifically time hence .toLocaleTimeString()
+//state is assigned to the JS object of date
+//to use state, assign it to the state property(state not myState = { date: yada yada })
