@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import TimeContent from './TimeContent'
 
 class App extends React.Component {
   state = { date: new Date().toLocaleTimeString() }
@@ -7,8 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        Welcome to the Time App
-        <p>Timestamp: {this.state.date}</p>
+        <TimeContent />
       </div>
     )
   }

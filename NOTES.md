@@ -91,5 +91,5 @@
 - maybe don't worry about error messages for now, if an error legitimately arises later when the app runs THEN figure out an error
 
 - NEW TASKS:
-  - [] Import TimeContent into index
+  - [x] Import TimeContent into index
   - [] Show the actual Time Content, either day or night
