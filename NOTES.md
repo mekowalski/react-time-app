@@ -81,4 +81,4 @@
 - To determine the time of day from AM or PM, or I can try with the actual time with a 24hr format
   - AM/PM: along the lines of `if (date = AM) return 'it is morning else return 'it is night'`
   - 24hr format: `const ampm = (hours >= 12) ? 'PM' : 'AM'`
-  -(not sure how correct the code is but this is the general idea)
+  - (not sure how correct the code is but this is the general idea)
