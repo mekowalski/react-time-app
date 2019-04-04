@@ -1,8 +1,8 @@
 import React from 'react';
 
-const getTimeOfDay = (date) => {
+const getTimeOfDay = (time) => {
   //return string eith morning or evening
-  // if (date >= 12) {
+  // if (time >= 12) {
   //   return 'it is morning time'
   // }
   // else {
@@ -10,10 +10,10 @@ const getTimeOfDay = (date) => {
   // }
 
   //trying with 3 conditionals of morning, afternoon and night
-  if (date < 12) {
+  if (time < 12) {
     return 'Morning Time'
   }
-  else if (date < 18) {
+  else if (time < 18) {
     return 'Afternoon Tea'
   }
   else {
@@ -22,8 +22,8 @@ const getTimeOfDay = (date) => {
 }
 
 const TimeContent = props => {
-  const time = getTimeOfDay(props.date)
-  console.log(time)
+  const statement = getTimeOfDay(props.time)
+  console.log(statement)
   return (
     <div>
       This is the Time Content page
