@@ -18,5 +18,3 @@ ReactDOM.render(
   <App />,
   document.querySelector('#root')
 )
-
-//state: babel builds of the constructor() and initializes state simultaneously in this one line of code

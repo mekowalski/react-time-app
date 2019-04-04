@@ -89,3 +89,7 @@
 - Not sure how to create error code for an possible errors. (don't know what error would arise from getting a time.)
 - re-render component to display error(update state)
 - maybe don't worry about error messages for now, if an error legitimately arises later when the app runs THEN figure out an error
+
+- NEW TASKS:
+  - [] Import TimeContent into index
+  - [] Show the actual Time Content, either day or night
