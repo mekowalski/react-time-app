@@ -8,10 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-      <TimeContent time={this.state.time} />
-      {
-        //YYYEEESSS!!! it worked!!! woot woot
-      }
+        <TimeContent time={this.state.time} />
       </div>
     )
   }

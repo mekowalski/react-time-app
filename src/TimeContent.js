@@ -1,23 +1,14 @@
 import React from 'react';
 
 const getTimeOfDay = (time) => {
-  //return string eith morning or evening
-  // if (time >= 12) {
-  //   return 'it is morning time'
-  // }
-  // else {
-  //   return 'it is night time'
-  // }
-
-  //trying with 3 conditionals of morning, afternoon and night
   if (time < 12) {
-    return 'Morning Time'
+    return 'Morning Time' //config: morning with icons of coffee/bath
   }
   else if (time < 18) {
-    return 'Afternoon Tea'
+    return 'Afternoon Tea' //config: afternoon with icons of sun/battery half(hehe) or js
   }
   else {
-    return 'Night Time'
+    return 'Night Time' //config: night with icons of moon/bed/star
   }
 }
 
