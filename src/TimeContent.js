@@ -36,7 +36,7 @@ const TimeContent = props => {
   return (
     <div className={`time-content ${statement}`} >
       <i className={`icon-left massive ${iconName} icon`} />
-      <h1>{statement}</h1>
+      <h1>{text}</h1>
       <i className={`icon-right massive ${iconName} icon`} />
     </div>
   )

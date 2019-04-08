@@ -121,3 +121,5 @@
   - create new css file for TimeContent
 
 - Just realized an error with the statement. The config isn't being called with the objects, only a string is being returned of `afternoon`.  When trying to modify that statement to `afternoon yall` i receive and error regarding `TypeError: Cannot read property 'text' of undefined`.  Not certain what to do to fix it, none of the actual `text` is displaying on the page
+
+- WOW That was a Tiny detail that created confusion!!!
