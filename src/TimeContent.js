@@ -1,5 +1,13 @@
 import React from 'react';
 
+//build configuration for time of day conditionals
+//keys are objects that can be called to tell user whether it's morning, afternoon or night
+const timeConfig = {
+  morning: {},
+  afternoon: {},
+  night: {}
+}
+
 const getTimeOfDay = (time) => {
   if (time < 12) {
     return 'Morning' //config: morning with icons of coffee/bath
