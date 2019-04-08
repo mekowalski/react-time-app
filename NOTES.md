@@ -110,8 +110,12 @@
   - initially the statement worked but i haven't figured out how to do a config for the statements
 - [x] And include related icons that go with Statement
   - want to be able to show an icon for all the conditional statements
+  - enlarge the icons, currently they're teeny
 
 - [x] Actually configure the statement with the icons to display properly
   - this gives cleaner code
   - provides a function that is responsible for the statement and icons
   - also simpler to call the actual variable
+
+- [] Add some CSS for a nicer look
+  - create new css file for TimeContent
