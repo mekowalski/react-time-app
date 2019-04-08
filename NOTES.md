@@ -63,7 +63,7 @@
   - maybe create a constructor() that sets `state` to some value
   - or use component life cycle to initially get the date
 
-- [] Print timestamp with class-based component
+- [x] Print timestamp with class-based component
 
 ## SIDENOTE
 - I just realized that this entire time i am depending on the time of the user, not their zone.  Originally i wanted to to some how use their timezone to give them a conditional text.  BUT the conditional text is actually based on their time(I want to show them whether it's day or night).  Never cared about their timezone in the first place.  What would i do with a timezone of Mountain Standard Time etc?
@@ -92,7 +92,7 @@
 
 - NEW TASKS:
   - [x] Import TimeContent into index
-  - [] Show the actual Time Content, either day or night
+  - [x] Show the actual Time Content, either day or night
     - New props in TimeContent as `date` with value of `this.state.date`
     - Determine time of day in TimeContent
     - Display morning/night dependent on AM or PM
