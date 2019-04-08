@@ -1,7 +1,5 @@
 import React from 'react';
 
-//build configuration for time of day conditionals
-//keys are objects that can be called to tell user whether it's morning, afternoon or night
 const timeConfig = {
   morning: {
     text: 'Good morning sunshine!',
@@ -19,20 +17,20 @@ const timeConfig = {
 
 const getTimeOfDay = (time) => {
   if (time < 12) {
-    return 'morning' //config: morning with icons of coffee/bath
+    return 'morning'
   }
   else if (time < 18) {
-    return 'afternoon' //config: afternoon with icons of sun/battery half(hehe) or js
+    return 'afternoon'
   }
   else {
-    return 'night' //config: night with icons of moon/bed/star
+    return 'night'
   }
 }
 
 const TimeContent = props => {
   const statement = getTimeOfDay(props.time)
-  //reference time config objects
-  const { text, iconName } = timeConfig[statement] // { text, iconName }
+  const { text, iconName } = timeConfig[statement]
+  //Console warning: Line 32:  'text' is assigned a value but never used  no-unused-vars
 
   return (
     <div>
@@ -44,7 +42,3 @@ const TimeContent = props => {
 }
 
 export default TimeContent
-
-//1. configure the time of day here
-//2. get the time of day via function
-//3. display the content of the time of day text and icons

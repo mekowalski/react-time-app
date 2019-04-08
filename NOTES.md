@@ -111,7 +111,7 @@
 - [x] And include related icons that go with Statement
   - want to be able to show an icon for all the conditional statements
 
-- [] Actually configure the statement with the icons to display properly
+- [x] Actually configure the statement with the icons to display properly
   - this gives cleaner code
   - provides a function that is responsible for the statement and icons
   - also simpler to call the actual variable
