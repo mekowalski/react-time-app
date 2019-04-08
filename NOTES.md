@@ -106,7 +106,12 @@
 
 ### Customize TimeContent
 - Dependent on time of day (00-12, 12-18 and 18-24)
-- [] Display a statement respective to the time of day
+- [x] Display a statement respective to the time of day
   - initially the statement worked but i haven't figured out how to do a config for the statements
-- [] And include related icons that go with Statement
+- [x] And include related icons that go with Statement
   - want to be able to show an icon for all the conditional statements
+
+- [] Actually configure the statement with the icons to display properly
+  - this gives cleaner code
+  - provides a function that is responsible for the statement and icons
+  - also simpler to call the actual variable
