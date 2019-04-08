@@ -1,4 +1,4 @@
-import './TimeContent.css'; //take content of css file and stick it in HTML file
+import './TimeContent.css';
 import React from 'react';
 
 const timeConfig = {
@@ -34,7 +34,7 @@ const TimeContent = props => {
   //Console warning: Line 32:  'text' is assigned a value but never used  no-unused-vars
 
   return (
-    <div>
+    <div className={`time-content ${statement}`} >
       <i className={`icon-left massive ${iconName} icon`} />
       <h1>{statement}</h1>
       <i className={`icon-right massive ${iconName} icon`} />
