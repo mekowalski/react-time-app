@@ -14,3 +14,8 @@ Kowalski, are you there?
   - Benefits and rules of Class Components
   - State that was procedural, basic and synchronous
   - Rules of State
+  - CSS file to style the text and icons from Semantic UI
+
+- React Time App is basic and only retrieves one piece of data from the user, the time
+- Since state was synchronous and always available, opposed to being asynchronous and externally fetching data, Component Life Cycles were not used
+- There isn't any input that gives the user any interaction, they simply see the page and are given a statement based on their current time
