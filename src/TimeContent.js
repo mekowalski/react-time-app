@@ -31,12 +31,14 @@ const getTimeOfDay = (time) => {
 
 const TimeContent = props => {
   const statement = getTimeOfDay(props.time)
-  const icon = statement === 'morning' ? 'coffee' : 'battery half'
+  //reference time config objects
+  const { text, iconName } = timeConfig[statement] // { text, iconName }
+
   return (
     <div>
-      <i className={`${icon} icon`} />
+      <i className={`${iconName} icon`} />
       <h1>{statement}</h1>
-      <i className={`${icon} icon`} />
+      <i className={`${iconName} icon`} />
     </div>
   )
 }
