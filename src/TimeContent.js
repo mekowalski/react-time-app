@@ -1,3 +1,4 @@
+import './TimeContent.css'; //take content of css file and stick it in HTML file
 import React from 'react';
 
 const timeConfig = {
@@ -34,9 +35,9 @@ const TimeContent = props => {
 
   return (
     <div>
-      <i className={`massive ${iconName} icon`} />
+      <i className={`icon-left massive ${iconName} icon`} />
       <h1>{statement}</h1>
-      <i className={`massive ${iconName} icon`} />
+      <i className={`icon-right massive ${iconName} icon`} />
     </div>
   )
 }
