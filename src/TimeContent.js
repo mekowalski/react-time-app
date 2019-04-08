@@ -14,9 +14,12 @@ const getTimeOfDay = (time) => {
 
 const TimeContent = props => {
   const statement = getTimeOfDay(props.time)
+  const icon = statement === 'morning' ? 'coffee' : 'battery half'
   return (
     <div>
-      <h1>Not sure what to do about configuring time of day yet</h1>
+      <i className={`${icon} icon`} />
+      <h1>{statement}</h1>
+      <i className={`${icon} icon`} />
     </div>
   )
 }
