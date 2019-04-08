@@ -19,13 +19,13 @@ const timeConfig = {
 
 const getTimeOfDay = (time) => {
   if (time < 12) {
-    return 'Morning' //config: morning with icons of coffee/bath
+    return 'morning' //config: morning with icons of coffee/bath
   }
   else if (time < 18) {
-    return 'Afternoon' //config: afternoon with icons of sun/battery half(hehe) or js
+    return 'afternoon' //config: afternoon with icons of sun/battery half(hehe) or js
   }
   else {
-    return 'Night' //config: night with icons of moon/bed/star
+    return 'night' //config: night with icons of moon/bed/star
   }
 }
 
