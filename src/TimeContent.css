@@ -10,6 +10,18 @@
   right: 10px;
 }
 
+.time-content.morning i {
+  color: #a4ffa4;
+}
+
+.time-content.afternoon i {
+  color: #ff8000;
+}
+
+.time-content.night i {
+  color: #0059b4;
+}
+
 .time-content {
   display: flex;
   justify-content: center;
