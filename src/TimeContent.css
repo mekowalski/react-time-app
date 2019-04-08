@@ -18,5 +18,13 @@
 }
 
 .morning {
-  background:
+  background-color: #f0fff0;
+}
+
+.afternoon {
+  background-color: #ffa64d;
+}
+
+.night {
+  background-color: #003367;
 }
