@@ -31,7 +31,6 @@ const getTimeOfDay = (time) => {
 const TimeContent = props => {
   const statement = getTimeOfDay(props.time)
   const { text, iconName } = timeConfig[statement]
-  //Console warning: Line 32:  'text' is assigned a value but never used  no-unused-vars
 
   return (
     <div className={`time-content ${statement}`} >
